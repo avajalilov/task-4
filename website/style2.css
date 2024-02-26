@@ -1,0 +1,220 @@
+* {
+    margin: 0
+}
+
+.main-content{
+    height: 600px;
+    width: 100%;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    background-position:center ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 128px;
+}
+.main-content h1 {
+    font-size: 90px;
+}
+.main-content p {
+    font-size: 28px;
+    font-weight: bold ;
+    font-style: italic ;
+    margin: 4px 0 46px 0 ;
+}
+.main-content button{
+    background-color: #1D809F;
+    padding: 26px 42px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font: size 14px;
+}
+.main-content2{
+    height: 300px ;
+    width:100% ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; 
+    background-color: white;
+    padding-top: 128px;
+}
+.main-content2 h2{
+    font-size: 30px;
+}
+.main-content2 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique ;
+    margin: 4px 0 46px 0 ;
+}
+.main-content2 button{
+    background-color: rgb(21, 20, 20);
+    padding: 26px 42px;
+    color: white;
+    border-radius: 10px;
+    font: size 14px;
+}
+
+.services{
+background-color: #1D809F;
+color: white;
+text-align: center;
+width: 90%;
+height: 400px;
+padding: 50px;
+margin: 50px;
+}
+.services-text{
+    color: darkorange;
+}
+.services i{
+width: 100px;
+height: 70px;
+background-color: white;
+border-radius: 50%;
+color: #1D809F;
+font-size: 32px;
+padding-top: 30px;
+margin: 50px;
+}
+.services-item{
+   display:inline-block
+}
+.services-h3{
+    margin: 50px    ;
+}
+.main{
+   height: 400px;
+   width: 100%;
+   background-image:url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   padding-top: 130px;
+}
+.main h4 {
+color: black;
+font-size: 50px;
+margin: 50px;
+}
+.btn2{
+    background-color: #1D809F;
+    padding: 26px 42px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    }
+.main {
+    margin: 60px;
+    
+}
+.main2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 90px ;
+}
+.projects {
+    width: 90%;
+    margin: 0 auto;
+ 
+}
+.project-item {
+    text-align: left;
+    padding: 180px 0 0 50px;
+    display: inline-block;
+    width: 480px;
+    height: 100px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    clip-path: inset(0px 0px 0px 0px);
+    transition: 200ms;
+}
+.project-item:hover {
+    clip-path: inset(30px 30px 30px 30px);
+}
+.project-item h4{
+    color: white;
+    font-size: 20px;
+}
+.project-item p{
+    color:white;
+    background-position: left;
+}
+.main2 p {
+    color: orange;
+    font-size: 15px;  
+}
+.project-item:nth-child(1) {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg");
+}
+.project-item:nth-child(2){
+    background-image:url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg");
+}
+.project-item:nth-child(3){
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg");
+}
+.project-item:nth-child(4){
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg");
+}
+.main3{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #1D809F;
+}
+
+.main3  h6{
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.btn3{
+    color:black;
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.btn4{
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.map{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.main4 {
+    padding: 64px 0;
+    text-align: center;
+}
+
+.main4 .logos {
+    margin-bottom: 32px;
+}
+
+.main4 i {
+    width: 60px;
+    height: 45px;
+    background-color: #1D809F;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin: 0 4px;
+}

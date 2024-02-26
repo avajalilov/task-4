@@ -1,0 +1,169 @@
+.lorem1{
+    margin-bottom: 5px;
+    background-color: aqua;
+    width: auto;
+}
+.lorem2{
+    margin-bottom: 5px;
+    background-color: aqua;
+    width: auto;
+    text-align: center;
+}
+.lorem3{
+    margin-bottom: 5px;
+    background-color: aqua;
+    width: auto;
+    text-align: end;
+}
+.lorem4{
+    margin-bottom: 5px;
+    background-color:aqua;
+    width: auto;
+    text-align: center;
+}
+.lorem5{
+    margin-bottom: 5px;
+    width: auto;
+    text-align: center;
+    background-color: aqua;
+}
+
+    .text1{
+      background-color: rgb(241, 244, 244);
+      width: auto;
+      height: 50px;
+      text-align: center;
+      
+    } 
+
+
+.task2 p{
+    width: 70%;
+    height: 40px;
+    background-color: rgb(190, 193, 195);
+    margin: 15px auto;
+    text-align: center;
+    line-height:40px ;
+
+}
+.task2 p:nth-child(1){
+    font-weight: bolder;
+}
+
+.task2 p:nth-child(2){
+    font-style: italic;
+    border: 2px solid blue;
+}
+.task2 p:nth-child(3){
+border: 2px dotted black ;
+text-decoration: line-through;
+}
+.task2 p:nth-child(4){
+    border: 2px dashed  gray;
+    text-decoration: overline;
+}
+.task2 p:nth-child(5){
+   border-top: 2px solid blueviolet ;
+   border-right: 2px solid orange;
+   border-left: 2px solid blue;
+   border-bottom: 2px solid rgb(223, 23, 23);
+}
+.task2 p:nth-child(6){
+    border-top: 2px  ;
+    border-right:2px dotted blueviolet ;
+    border-left: 2px dashed rgb(255, 16, 16);
+    border-bottom:thick double rgb(237, 138, 17);
+
+}
+
+.task3 p {
+    width: 40%;
+    border-bottom: 2px solid black;
+    background-color: gray;
+    margin: 0;
+    
+}
+
+.task4 p{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.task4 p:nth-child(1){ 
+    border:2px solid rgb(255, 111, 8) ;
+    margin-left: 100px;
+}
+.task4 p:nth-child(2){ 
+    border:2px dotted rgb(255, 111, 8) ;
+    margin-left: 200px;
+}
+.task4 p:nth-child(3){ 
+    border:2px dashed rgb(255, 111, 8) ;
+    margin-left: 300px;    
+}
+.task4 p:nth-child(4){ 
+    border:2px double rgb(255, 111, 8) ;
+    margin-left: 400px;
+}
+.task5{
+    box-shadow: 5px 5px 5px grey;
+}
+.task5 h1,.task5 .footer {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.task6{
+    margin: 30px;
+} .task6 span{
+    background-color: orange;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+.task6  .setir1 span:nth-child(1){
+    border-radius: 4px;
+}
+.task6 .setir1 span:nth-child(2){
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px ;
+}
+.task6 .setir1 span:nth-child(3){
+    border-top-left-radius: 50%;
+    border-top-right-radius:50% ;
+}
+.task6 .setir1 span:nth-child(4){
+    border-top-left-radius: 50%;
+    border-top-left-radius: 100%;
+}
+.task6 .setir2 span:nth-child(1){
+border-top-right-radius: 60%;
+border-bottom-left-radius: 60%;
+}
+.task6 .setir2 span:nth-child(2){
+border-top-right-radius: 90%;
+border-bottom-left-radius: 90%;
+}
+.task6 .setir2 span:nth-child(3){
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.task6 .setir2 span:nth-child(4){
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(2n+1){
+background-color: lightgray;
+}
+
+    
